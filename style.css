@@ -1,0 +1,383 @@
+/* Start VIDEO Component code coppied from https://startbootstrap.com/snippets/video-header/*/
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url("") black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+  /* Start VIDEO Component code coppied from https://startbootstrap.com/snippets/video-header/*/
+  @media (max-width: 640px) 
+{
+    #myvideo
+    {
+        display: none;
+    }
+}
+  h1.welcome-h1{
+      font-size: 20px;
+      margin: 16px 0px;
+      padding: 16px 0px 0px;
+      font-weight: bold;
+  }
+  p{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+  }
+  .card{
+    border: none !important;
+  }
+  .display {
+    display: flex;
+  }
+  .margin35{
+    margin-top: 20px;
+  }
+  .bg-fluid-box {
+    background-color: #f1f7fd;
+  }
+  
+  .title {
+    font-family: "Elsie", cursive;
+    font-weight: bold;
+  }
+  
+  .card-descr {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  .card-descr {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.bg-birthday {
+  background-color: #d2f0ee !important;
+}
+
+.bg-funeral {
+  background-color: #5D8C3B !important;
+  padding-top: 30px;
+}
+
+.bg-heart {
+  background-color: #f2e0dc !important;
+}
+
+.hover {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  cursor: default;
+}
+
+.hover .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 80px 20px;
+}
+
+.hover img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.75s;
+  transition: opacity 0.35s, transform 0.75s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hover:hover img {
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -ms-transform:scale(2.4);
+  -webkit-transform:scale(2.4);
+  transform:scale(2.4);
+}
+
+.hover .card-descr {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hover:hover .card-descr {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.linkbutton {
+  cursor: pointer;
+	text-decoration: underline;
+  color: black;
+  font-family: "Elsie", cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+.margin-20{
+    margin: 20px !important;
+}
+.small-box {
+    background-color: #f5e9dd !important;
+    padding: 10px;
+  }
+  .bg-fluid-yellow {
+    background-color: #fdfee0;
+  }
+  .elfsight-app-26ab373d-50ea-48d9-b1c3-ed02cda66f9f, .eapps-instagram-feed-title {
+    font-family: 'Elsie', cursive;
+    font-weight: bold;
+  }
+.circle-image {
+    margin-bottom: 0.5rem;
+  }
+  p.centeredtex{
+      text-align: center;
+  }
+  h3.centeredtext{
+      text-align: center;
+  }
+  .row{
+      margin: 15px;
+  }
+  /* Start - code coppied from https://bootsnipp.com/snippets/eNxGv*/
+  .img-overlay {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("images/collection.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+/*END - code coppied from https://bootsnipp.com/snippets/eNxGv*/
+.h1-text {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+  }
+  .houseplant-info {
+      max-width: 80%;
+    background-color: #f2f2f2;
+  }
+  .round-border{
+    border-radius: calc(.25rem - 1px);
+  }
+  .icon-img {
+    padding-bottom: 20px;
+    margin-right: 20px;
+  }
+  .margin-bottom{
+    margin-bottom: 20px;
+  }
+  .margin-45{
+      margin-bottom: 45px;
+  }
+  .card-body{
+      padding: 1.50rem !important;
+  }
+  .ourworks-margin {
+    margin-bottom: 100px;
+  }
+  .worksh2-margin {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .icon-contact{
+      margin-right: 15px;
+      margin-left: 15px;;
+  }
+  .dark{
+      background-color: black;
+  }
+  .nav-link{
+      color: white !important;
+  }
+
+  /*Start -nav link effect Followed YouTube Tutorial - https://www.youtube.com/watch?v=TcPYVqHAHNQ
+  ul li{
+    margin: 0 20px !important;
+    transition: 0.5s;
+  }
+  ul li a{
+    transition: 0.5s;
+    padding: 5px !important;
+  }
+  ul:hover li a{
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+  }
+  ul li a:hover{
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);;
+  }
+  /*End - Followed YouTube Tutorial - https://www.youtube.com/watch?v=TcPYVqHAHNQ*/
+
+.nav-item::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s
+}
+.nav-item:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+  /*Start button hover effect - followed YouTube tutorial - https://www.youtube.com/watch?v=ceNMP-aQkQ4*/
+  .button{
+    cursor: pointer;
+    border-radius: calc(.25rem - 1px);
+    border: 0;
+    border-color:#007bff; 
+    background: #007bff;
+    color: white;
+    padding: 0.5em 0.5em;
+    position: relative;
+    z-index: 1;
+  }
+  .button-pink{
+    cursor: pointer;
+    border-radius: calc(.25rem - 1px);
+    border: 0;
+    border-color:#efa6c7;
+    background: #efa6c7;
+    color: white;
+    padding: 0.5em 0.5em;
+    position: relative;
+    z-index: 1;
+  }
+  .button-green{
+    cursor: pointer;
+    border-radius: calc(.25rem - 1px);
+    border: 0;
+    border-color:#28a745;
+    background: #28a745;
+    color: white;
+    padding: 0.5em 0.5em;
+    position: relative;
+    z-index: 1;
+  }
+  .button::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    transition: transform 200ms ease-in;
+  }
+  .button-pink::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    transition: transform 200ms ease-in;
+  }
+  .button-green::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    transition: transform 200ms ease-in;
+  }
+  .button-one::after{
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .button-one:hover::after{
+    transform: scaleX(1);
+  }
+  /*End button hover effect - followed YouTube tutorial - https://www.youtube.com/watch?v=ceNMP-aQkQ4*/
+ol{
+  list-style: none;
+}
+a{
+  color: black !important;
+  text-decoration: none;
+}
+
+div a.links {
+  display: inline-block;
+}
+
+footer{
+  background: #f5e9dd;
+  padding: 10px;
+}
+.social{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.border-order{
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 30px;
+}
+.contacts{
+  margin-top: 50px !important;
+}
